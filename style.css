@@ -1,0 +1,35 @@
+/* Padrão navegador e 16px para facilitar se calcula (10*100) / 16 */
+/* o rem e utulizado para acessibilidade no site */
+/* figma so passa o valor em px */
+:root {
+
+    --primary-color: hsl(170, 100%, 26%)
+
+    font-size: 62.5%;
+
+
+}
+
+/* Depois fica 16px que vale 1.6 rem no corpo inteiro */
+body {
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-style: normal;
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+button{
+    background-color: var(--primary-color);
+}
